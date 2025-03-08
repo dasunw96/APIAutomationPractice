@@ -1,0 +1,168 @@
+12:40:53.892 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+12:40:53.923 [main] INFO  com.api.Listeners.TestListener - Test Started: updateProfile
+12:40:55.325 [main] INFO  com.api.Listeners.TestListener - Test Passed: updateProfile
+12:40:55.327 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+13:09:52.942 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+13:09:52.970 [main] INFO  com.api.Listeners.TestListener - Test Started: updateProfile
+13:09:53.624 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:09:53.624 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:09:53.624 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+13:09:54.164 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:09:54.187 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQxOTU5OCwiZXhwIjoxNzQxNDIzMTk4fQ.XgV9q0w4nuozTZmRgcVkTJzmRu3vfuXaWoIDAO1Bshw",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:09:54.223 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:09:54.223 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQxOTU5OCwiZXhwIjoxNzQxNDIzMTk4fQ.XgV9q0w4nuozTZmRgcVkTJzmRu3vfuXaWoIDAO1Bshw
+Accept=*/*
+Content-Type=application/json
+13:09:54.223 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+13:09:54.424 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:09:54.425 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+13:09:54.429 [main] INFO  com.api.Listeners.TestListener - Test Passed: updateProfile
+13:09:54.430 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+13:16:15.088 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+13:16:15.119 [main] INFO  com.api.Listeners.TestListener - Test Started: updateProfile
+13:16:15.787 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:16:15.787 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:16:15.787 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+13:16:16.293 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:16:16.313 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQxOTk4MCwiZXhwIjoxNzQxNDIzNTgwfQ.23vWKnAyxAXx3lQMX6sTPNFs9cRk7Y9RLuPZQriY8d8",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:16:16.349 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:16:16.349 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQxOTk4MCwiZXhwIjoxNzQxNDIzNTgwfQ.23vWKnAyxAXx3lQMX6sTPNFs9cRk7Y9RLuPZQriY8d8
+Accept=*/*
+Content-Type=application/json
+13:16:16.349 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+13:16:16.532 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:16:16.534 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+13:16:16.538 [main] INFO  com.api.Listeners.TestListener - Test Passed: updateProfile
+13:16:16.540 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+13:22:55.193 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+13:22:55.221 [main] INFO  com.api.Listeners.TestListener - Test Started: createAccountTest
+13:22:55.857 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:55.857 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:22:55.857 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+13:22:56.273 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+13:22:56.294 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+13:22:56.295 [main] INFO  com.api.Listeners.TestListener - Test Passed: createAccountTest
+13:22:56.297 [main] INFO  com.api.Listeners.TestListener - Test Started: forgotPasswordTest
+13:22:56.304 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:56.304 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:22:56.304 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+13:22:56.479 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:56.490 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+13:22:56.491 [main] INFO  com.api.Listeners.TestListener - Test Passed: forgotPasswordTest
+13:22:56.491 [main] INFO  com.api.Listeners.TestListener - Test Started: getProfileTest
+13:22:56.497 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:56.497 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:22:56.497 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+13:22:56.770 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:56.771 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQyMDM4MSwiZXhwIjoxNzQxNDIzOTgxfQ.30jXxsnBuaDWjLOOhlyaaezAeOElsmQEZFqcWEnbvpk",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:22:56.798 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:56.799 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQyMDM4MSwiZXhwIjoxNzQxNDIzOTgxfQ.30jXxsnBuaDWjLOOhlyaaezAeOElsmQEZFqcWEnbvpk
+Accept=*/*
+13:22:56.799 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+13:22:56.999 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:57.000 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+13:22:57.003 [main] INFO  com.api.Listeners.TestListener - Test Passed: getProfileTest
+13:22:57.004 [main] INFO  com.api.Listeners.TestListener - Test Started: loginTest
+13:22:57.008 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:57.008 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:22:57.008 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+13:22:57.281 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:57.285 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQyMDM4MSwiZXhwIjoxNzQxNDIzOTgxfQ.30jXxsnBuaDWjLOOhlyaaezAeOElsmQEZFqcWEnbvpk",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:22:57.287 [main] INFO  com.api.Listeners.TestListener - Test Passed: loginTest
+13:22:57.288 [main] INFO  com.api.Listeners.TestListener - Test Started: updateProfile
+13:22:57.291 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:57.291 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+13:22:57.291 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+13:22:57.573 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:57.574 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQyMDM4MSwiZXhwIjoxNzQxNDIzOTgxfQ.30jXxsnBuaDWjLOOhlyaaezAeOElsmQEZFqcWEnbvpk",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:22:57.582 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+13:22:57.582 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQyMDM4MSwiZXhwIjoxNzQxNDIzOTgxfQ.30jXxsnBuaDWjLOOhlyaaezAeOElsmQEZFqcWEnbvpk
+Accept=*/*
+Content-Type=application/json
+13:22:57.582 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+13:22:57.782 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+13:22:57.783 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+13:22:57.785 [main] INFO  com.api.Listeners.TestListener - Test Passed: updateProfile
+13:22:57.787 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
