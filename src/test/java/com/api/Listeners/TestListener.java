@@ -1,6 +1,6 @@
 package com.api.Listeners;
 
-import com.api.Reporting.ExtentManager;
+import com.api.Utilities.ExtentManager;
 import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,4 +1,4 @@
-package com.api.Reporting;
+package com.api.Utilities;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

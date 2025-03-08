@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <listeners>
         <listener class-name="com.api.Listeners.TestListener"/>
-        <listener class-name="com.api.Reporting.AnnotationTransformer"/>
+        <listener class-name="com.api.Utilities.AnnotationTransformer"/>
     </listeners>
     <test name="API Test">
         <classes>

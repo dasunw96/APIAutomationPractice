@@ -2,7 +2,7 @@ package com.api.base;
 
 import static io.restassured.RestAssured.*;
 
-import com.api.Reporting.ExtentManager;
+import com.api.Utilities.ExtentManager;
 import com.api.filters.LoggingFilter;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
