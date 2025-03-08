@@ -3,6 +3,7 @@ package com.api.tests.AuthService;
 import com.api.models.request.SignupRequest;
 import com.api.services.AuthService;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AccountCreationTest {
@@ -20,6 +21,7 @@ public class AccountCreationTest {
                 .build();
         AuthService authService = new AuthService();
         Response response = authService.signup(signupRequest);
+        Assert.assertEquals(response.getStatusCode(),200);
         System.out.println(response.asPrettyString());
     }
 }

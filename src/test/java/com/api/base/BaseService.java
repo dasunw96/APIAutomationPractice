@@ -2,8 +2,8 @@ package com.api.base;
 
 import static io.restassured.RestAssured.*;
 
+import com.api.Reporting.ExtentManager;
 import com.api.filters.LoggingFilter;
-import com.api.models.request.LoginRequest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -16,6 +16,7 @@ public class BaseService {
 
     static {
         RestAssured.filters(new LoggingFilter());
+        ExtentManager.createExtentSparkReports();
     }
 
     public BaseService(){

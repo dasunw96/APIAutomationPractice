@@ -1,38 +1,53 @@
 package com.api.Listeners;
 
+import com.api.Reporting.ExtentManager;
+import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class TestListener implements ITestListener {
+import java.util.Arrays;
+
+
+public class TestListener extends ExtentManager implements ITestListener  {
 
     private static final Logger logger = LogManager.getLogger(TestListener.class);
+
+    private static String getTestName(ITestResult result){
+        return result.getMethod().getConstructorOrMethod().getName();
+    }
 
     public void onStart(ITestContext context) {
         logger.info("Test Suite started!!!");
     }
 
     public void onFinish(ITestContext context) {
+        ExtentManager.endReport();
         logger.info("Test Suite Ended!!!");
     }
 
     public void onTestStart(ITestResult result) {
-        logger.info("Test Started: {}", result.getName());
+        test = extentReports.createTest(result.getName());
     }
 
     public void onTestSuccess(ITestResult result) {
-        logger.info("Test Passed: {}", result.getName());
+            test.log(Status.PASS,"Passed!!!");
+
     }
 
     public void onTestFailure(ITestResult result) {
-        logger.error("Test Failed: {}", result.getName());
-        logger.error("Exception: ", result.getThrowable());
+
+        test.log(Status.FAIL,"Failed!!!");
+            test.log(Status.FAIL,result.getThrowable().getMessage());
+            test.log(Status.FAIL, Arrays.toString(result.getThrowable().getStackTrace()));
+
     }
 
     public void onTestSkipped(ITestResult result) {
+            test.log(Status.SKIP,"Skipped!!!");;
 
-        logger.info("Skipped!!!{}", result.getName());
+
     }
 }

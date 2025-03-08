@@ -166,3 +166,639 @@ Content-Type=application/json
 }
 13:22:57.785 [main] INFO  com.api.Listeners.TestListener - Test Passed: updateProfile
 13:22:57.787 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+16:19:06.206 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+16:19:06.893 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:06.893 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:19:06.893 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:19:07.301 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:19:07.316 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:19:07.339 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:07.339 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:19:07.339 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+16:19:07.531 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:07.541 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+16:19:07.549 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:07.549 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:19:07.549 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:19:07.818 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:07.819 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMDk1MiwiZXhwIjoxNzQxNDM0NTUyfQ.bRtLbYudmCRg-ruqrbAka8Lm1tWoIHaJVioRkCRybzk",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:19:07.861 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:07.861 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMDk1MiwiZXhwIjoxNzQxNDM0NTUyfQ.bRtLbYudmCRg-ruqrbAka8Lm1tWoIHaJVioRkCRybzk
+Accept=*/*
+16:19:07.861 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+16:19:08.072 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:08.509 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:19:08.515 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:08.516 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:19:08.516 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:19:08.788 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:08.789 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMDk1MywiZXhwIjoxNzQxNDM0NTUzfQ.AeVqWY-DN6j3BW7tCELgVyDDXm5qMd4GfDkeeNaOXdg",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:19:08.795 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:08.795 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:19:08.795 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:19:09.096 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:09.097 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMDk1MywiZXhwIjoxNzQxNDM0NTUzfQ.AeVqWY-DN6j3BW7tCELgVyDDXm5qMd4GfDkeeNaOXdg",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:19:09.104 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:19:09.104 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMDk1MywiZXhwIjoxNzQxNDM0NTUzfQ.AeVqWY-DN6j3BW7tCELgVyDDXm5qMd4GfDkeeNaOXdg
+Accept=*/*
+Content-Type=application/json
+16:19:09.104 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+16:19:09.303 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:19:09.304 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:19:09.306 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+16:25:59.483 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+16:26:00.162 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:00.162 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:00.162 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:26:00.687 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:26:00.703 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:26:00.714 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:00.714 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:00.714 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:26:00.940 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:26:00.942 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:26:00.950 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:00.950 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:00.950 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:26:01.212 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:26:01.212 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:26:01.220 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:01.220 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:01.220 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:26:01.478 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:26:01.480 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:26:01.485 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:01.486 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:01.486 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:26:01.703 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:26:01.705 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:26:01.723 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:01.724 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:01.724 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+16:26:01.967 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:01.981 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+16:26:01.987 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:01.988 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:01.988 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:26:02.353 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:02.355 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTM2NiwiZXhwIjoxNzQxNDM0OTY2fQ.GlWFYy53e4iKYRtTYO1PBqlnlVUifH6Ox5v5i6aOzDw",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:26:02.402 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:02.403 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTM2NiwiZXhwIjoxNzQxNDM0OTY2fQ.GlWFYy53e4iKYRtTYO1PBqlnlVUifH6Ox5v5i6aOzDw
+Accept=*/*
+16:26:02.403 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+16:26:02.612 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:02.613 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:26:02.619 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:02.619 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:02.619 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:26:02.956 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:02.958 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTM2NywiZXhwIjoxNzQxNDM0OTY3fQ.Nb0-HQ10E125i4tjwKOxSM2ETiQcSZB08_HAEy9xGjU",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:26:02.969 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:02.969 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:26:02.969 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:26:03.249 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:03.251 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTM2NywiZXhwIjoxNzQxNDM0OTY3fQ.Nb0-HQ10E125i4tjwKOxSM2ETiQcSZB08_HAEy9xGjU",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:26:03.257 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:26:03.258 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTM2NywiZXhwIjoxNzQxNDM0OTY3fQ.Nb0-HQ10E125i4tjwKOxSM2ETiQcSZB08_HAEy9xGjU
+Accept=*/*
+Content-Type=application/json
+16:26:03.258 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+16:26:03.485 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:26:03.486 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:26:03.488 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+16:30:03.332 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+16:30:04.071 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:04.071 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:04.071 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:30:04.541 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:30:04.562 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:30:04.579 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:04.579 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:04.579 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:30:04.777 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:30:04.778 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:30:04.784 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:04.785 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:04.785 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:30:04.987 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:30:04.988 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:30:04.994 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:04.994 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:04.994 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:30:05.190 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:30:05.190 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:30:05.194 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:05.194 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:05.194 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+16:30:05.446 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+16:30:05.447 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+16:30:05.473 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:05.473 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:05.473 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+16:30:05.654 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:05.666 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+16:30:05.673 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:05.673 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:05.673 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:30:05.946 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:05.947 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTYxMCwiZXhwIjoxNzQxNDM1MjEwfQ.R-6KYKp-O1-dREqcFpQwZX7yCzMRnDVnsw7CyDcwUkQ",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:30:05.976 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:05.976 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTYxMCwiZXhwIjoxNzQxNDM1MjEwfQ.R-6KYKp-O1-dREqcFpQwZX7yCzMRnDVnsw7CyDcwUkQ
+Accept=*/*
+16:30:05.977 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+16:30:06.190 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:06.191 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:30:06.199 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:06.199 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:06.199 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:30:06.458 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:06.462 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTYxMCwiZXhwIjoxNzQxNDM1MjEwfQ.R-6KYKp-O1-dREqcFpQwZX7yCzMRnDVnsw7CyDcwUkQ",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:30:06.477 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:06.478 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+16:30:06.478 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+16:30:06.756 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:06.757 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTYxMSwiZXhwIjoxNzQxNDM1MjExfQ.vwusjHvmbffuhazTl77nV6pDi4bLbvqiHovFdhUmV_w",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:30:06.763 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+16:30:06.763 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzMTYxMSwiZXhwIjoxNzQxNDM1MjExfQ.vwusjHvmbffuhazTl77nV6pDi4bLbvqiHovFdhUmV_w
+Accept=*/*
+Content-Type=application/json
+16:30:06.763 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+16:30:06.960 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+16:30:06.963 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+16:30:06.964 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:08:51.937 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:08:51.966 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:08:52.718 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:08:52.718 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:08:52.718 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:08:53.259 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:08:53.287 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:08:53.293 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:08:53.297 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:08:53.297 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:08:53.297 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:08:53.504 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:08:53.506 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:08:53.694 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:10:03.048 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:10:03.075 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:10:03.755 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:10:03.755 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:10:03.755 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:10:04.183 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:10:04.197 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:10:04.213 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:10:04.217 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:10:04.217 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:10:04.217 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:10:04.410 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:10:04.411 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:10:04.583 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:14:48.885 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:14:48.912 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:14:49.597 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:14:49.597 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:14:49.598 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:14:50.026 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:14:50.043 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:14:50.050 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:14:50.055 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:14:50.055 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:14:50.055 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:14:50.243 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:14:50.244 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:14:50.434 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:15:55.611 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:15:55.637 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:15:56.329 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:15:56.329 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:15:56.329 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:15:56.757 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:15:56.772 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:15:56.789 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:15:56.793 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:15:56.794 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:15:56.794 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:15:56.966 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:15:56.967 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:15:57.130 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:23:47.440 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:23:47.684 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:24:26.941 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:24:27.195 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:24:48.152 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:24:48.180 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:24:48.869 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:24:48.870 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:24:48.870 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:24:49.317 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:24:49.332 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:24:49.348 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:24:49.352 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:24:49.352 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:24:49.352 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:24:49.526 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:24:49.528 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:24:49.691 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:30:23.507 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:30:23.535 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:30:24.230 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:30:24.230 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:30:24.230 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:30:24.645 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:30:24.660 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:30:24.677 [main] INFO  com.api.Listeners.TestListener - starting with :createAccountTest
+17:30:24.681 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:30:24.681 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:30:24.681 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:30:24.856 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:30:24.858 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:30:25.031 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:53:55.414 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:53:56.164 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:56.165 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:56.165 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:53:56.590 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:53:56.620 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:53:56.632 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:56.632 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:56.632 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:53:56.827 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:53:56.827 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:53:56.836 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:56.836 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:56.836 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:53:57.023 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:53:57.024 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:53:57.029 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:57.029 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:57.029 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:53:57.217 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:53:57.218 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:53:57.224 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:57.224 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:57.224 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:53:57.434 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:53:57.435 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:53:57.448 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:57.448 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:57.449 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+17:53:57.637 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:57.649 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+17:53:57.656 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:57.656 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:57.656 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:53:57.929 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:57.930 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjYzNywiZXhwIjoxNzQxNDQwMjM3fQ.8781YEEtwl54ZaJBe2rVrR80b5oYMN5e7pXNhq_AGsY",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:53:57.960 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:57.960 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjYzNywiZXhwIjoxNzQxNDQwMjM3fQ.8781YEEtwl54ZaJBe2rVrR80b5oYMN5e7pXNhq_AGsY
+Accept=*/*
+17:53:57.960 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+17:53:58.161 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:58.162 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+17:53:58.168 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:58.168 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:58.168 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:53:58.457 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:58.459 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjYzOCwiZXhwIjoxNzQxNDQwMjM4fQ.PXBIjyL1eoD7gr9D44v8veJMffGFUtkB4Ou0aAhx17w",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:53:58.467 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:58.467 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:53:58.467 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:53:58.755 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:58.756 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjYzOCwiZXhwIjoxNzQxNDQwMjM4fQ.PXBIjyL1eoD7gr9D44v8veJMffGFUtkB4Ou0aAhx17w",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:53:58.763 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:53:58.763 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjYzOCwiZXhwIjoxNzQxNDQwMjM4fQ.PXBIjyL1eoD7gr9D44v8veJMffGFUtkB4Ou0aAhx17w
+Accept=*/*
+Content-Type=application/json
+17:53:58.763 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+17:53:58.951 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:53:58.952 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+17:53:59.113 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
+17:54:21.329 [main] INFO  com.api.Listeners.TestListener - Test Suite started!!!
+17:54:22.043 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:22.043 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:22.043 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:54:22.473 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:54:22.487 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:54:22.510 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:22.510 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:22.510 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:54:22.725 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:54:22.727 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:54:22.735 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:22.735 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:22.735 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:54:22.920 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:54:22.922 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:54:22.939 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:22.939 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:22.939 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:54:23.177 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:54:23.179 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:54:23.191 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:23.192 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:23.192 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"lahiru","password":"lahiru123","email":"lahiru@gmail.com","firstName":"lahiru","lastName":"lahiru1","mobileNumber":"0715556669"}]
+17:54:23.379 [main] INFO  com.api.filters.LoggingFilter - Status Code:400
+17:54:23.381 [main] INFO  com.api.filters.LoggingFilter - Response Body:Error: Username is already taken!
+17:54:23.396 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:23.396 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:23.396 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"email":"dasun@gmail.com"}]
+17:54:23.590 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:23.602 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+17:54:23.607 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:23.608 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:23.608 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:54:23.859 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:23.860 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjY2MywiZXhwIjoxNzQxNDQwMjYzfQ.C6SCkZndnI09Ld765ODTyhtyKqHnDwdVddjj77lDhKs",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:54:23.894 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:23.894 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjY2MywiZXhwIjoxNzQxNDQwMjYzfQ.C6SCkZndnI09Ld765ODTyhtyKqHnDwdVddjj77lDhKs
+Accept=*/*
+17:54:23.894 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional.empty
+17:54:24.076 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:24.077 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+17:54:24.085 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:24.085 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:24.085 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:54:24.355 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:24.358 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjY2NCwiZXhwIjoxNzQxNDQwMjY0fQ.G-_ndT1nCgyyNPOOLS6YC5a8_uFpE-UYL535fiVpHx4",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:54:24.370 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:24.370 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Accept=*/*
+Content-Type=application/json
+17:54:24.370 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"username":"dasun123","password":"dasun123"}]
+17:54:24.644 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:24.645 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjY2NCwiZXhwIjoxNzQxNDQwMjY0fQ.G-_ndT1nCgyyNPOOLS6YC5a8_uFpE-UYL535fiVpHx4",
+    "type": "Bearer",
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:54:24.653 [main] INFO  com.api.filters.LoggingFilter - Base URI:http://64.227.160.186:8080
+17:54:24.653 [main] INFO  com.api.filters.LoggingFilter - Request Headers:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkYXN1bjEyMyIsImlhdCI6MTc0MTQzNjY2NCwiZXhwIjoxNzQxNDQwMjY0fQ.G-_ndT1nCgyyNPOOLS6YC5a8_uFpE-UYL535fiVpHx4
+Accept=*/*
+Content-Type=application/json
+17:54:24.653 [main] INFO  com.api.filters.LoggingFilter - Request Body:Optional[{"firstName":"dasun11","lastName":"weda","email":"dasun@yahoo.com","mobileNumber":"0123456789"}]
+17:54:24.849 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+17:54:24.851 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 264,
+    "username": "dasun123",
+    "email": "dasun@yahoo.com",
+    "firstName": "dasun11",
+    "lastName": "weda",
+    "mobileNumber": "0123456789"
+}
+17:54:25.006 [main] INFO  com.api.Listeners.TestListener - Test Suite Ended!!!
